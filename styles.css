@@ -103,7 +103,7 @@ a {text-decoration: none;}
     content: "";
     position: absolute;
     z-index: 10;
-    background: url(/images/icon-view.svg);
+    background: url(images/icon-view.svg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 4rem;
