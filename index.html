@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | NFT preview card component</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="card">
+      <div class="container-img">
+        <img 
+        loading="lazy"
+        width="200"
+        height="100"
+        src="/images/image-equilibrium.jpg" 
+        alt="NFT Image"
+        class="image-ntf"
+        >
+      </div>
+      <section>
+          <h3 class="title active">Equilibrium #3429</h3>
+          <p class="txt softBlue">Our Equilibrium collection promotes balance and calm.</p>
+          <div class="container-status">
+            <div class="container-price">
+              <p class="price">0.041 ETH</p>
+              <img
+              width="12"
+              height="15"
+              loading="lazy"
+              src="/images/icon-ethereum.svg" 
+              alt="Icon etherum">
+            </div>
+            <div class="container-time">
+              <p class="time softBlue">3 days left</p>
+              <img
+              width="18"
+              height="18"
+              loading="lazy"
+              src="/images/icon-clock.svg" 
+              alt="Icon etherum">
+            </div>
+          </div>
+          <div class="container-author">
+            <img 
+            width="40"
+            height="40"
+            loading="lazy"
+            src="/images/image-avatar.png" 
+            alt="Image of author"
+            class="image-author"
+            >
+            <p class="author active"><span class="softBlue">Creation of</span> Jules Wyvern</p>
+          </div>
+      </section>
+  </div>
+  
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Kozdian" target="_blank">Kozdian</a>.
+  </div>
+</body>
+</html>
